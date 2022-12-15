@@ -30,7 +30,11 @@ public class GameStarter : MonoBehaviour
         _additionalLine_1.SetActive(false);
         _additionalLine_2.SetActive(false);
 
+        UnityEngine.UI.LayoutRebuilder.ForceRebuildLayoutImmediate(_petPopup.GetComponent<RectTransform>());
+
         _petPopup.SetActive(true);
+
+        UnityEngine.UI.LayoutRebuilder.ForceRebuildLayoutImmediate(_petPopup.GetComponent<RectTransform>());
     }
 
     public void OpenNoTooltip()
@@ -42,6 +46,8 @@ public class GameStarter : MonoBehaviour
 
         _additionalLine_1.SetActive(false);
         _additionalLine_2.SetActive(false);
+
+        UnityEngine.UI.LayoutRebuilder.ForceRebuildLayoutImmediate(_petPopup.GetComponent<RectTransform>());
 
         _petPopup.SetActive(true);
     }
@@ -55,6 +61,8 @@ public class GameStarter : MonoBehaviour
 
         _additionalLine_1.SetActive(true);
         _additionalLine_2.SetActive(true);
+
+        UnityEngine.UI.LayoutRebuilder.ForceRebuildLayoutImmediate(_petPopup.GetComponent<RectTransform>());
 
         _petPopup.SetActive(true);
     }
