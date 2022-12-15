@@ -1,0 +1,53 @@
+# Unity Generated
+[Tt]emp/
+[Tt]emp.meta
+[Ll]ibrary/
+[Ll]ibrary.meta
+[Oo]bj/
+[Oo]bj.meta
+[Ll]ogs/
+[Ll]ogs.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
+
+# Visual Studio / MonoDevelop Generated
+ExportedObj/
+obj/
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# OS Generated
+desktop.ini
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Screenshots/
+/Assets/Plugins/Android
+Android.meta
+Assets/AssetStoreTools.meta
+Assets/AssetStoreTools/AS_Checklist.asset
+Assets/AssetStoreTools/AS_Checklist.asset.meta
+Assets/AssetStoreTools/Editor.meta
+Assets/AssetStoreTools/Editor/AssetStoreTools.dll
+Assets/AssetStoreTools/Editor/AssetStoreTools.dll.meta
+
+# Custom
+[Dd]esigners[Oo]nly/
+[Dd]esigners[Oo]nly.meta
+UserSettings/
+[Aa]sset[Ss]tore[Tt]ools*
+[Aa]sset[Ss]tore[Tt]ools/*
